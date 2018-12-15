@@ -1,0 +1,9 @@
+create database akademik;
+use akademik;
+create table mahasiswa(nim varchar(10) primary key not null, nama varchar(50) not null, prodi char(5) not null);
+insert into mahasiswa value('16.4.00072','saiful kurniawan aprilianto','SI-S1');
+insert into mahasiswa value('16.5.00034','riski saputra','TI-S1');
+insert into mahasiswa value('16.2.00012','heni safitri','MI-D3');
+insert into mahasiswa value('16.1.00042','intan sulastri','KA-D3');
+insert into mahasiswa value('16.3.00011','heru susanto','TI-D3');
+select * from mahasiswa;
